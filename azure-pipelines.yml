@@ -1,4 +1,10 @@
 # Docker
+- task: Application security testing@2023
+  inputs:
+    projectName: 'E-GPC-20.11'
+    enableProxy: false
+    enableSastScan: true
+    enableDependencyScan: false
 # Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
